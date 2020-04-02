@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: pink;
+  padding: 2em;
+}
+
+h2 {
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.card {
+  margin: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: pink;
+  padding: 5px;
+}
+
+.details p {
+  margin-bottom: 9px;
+}
