@@ -22,10 +22,14 @@ function flowerInfo(json) {
        <div class="details">
         <h3 class="name">${result.name}</h3>
         <p>Price: ${result.prices.price} ${result.prices.price_prefix}</p>                           
-        <a class="btn" href="details.html?id=${result.id}">View More</a>
+        <a class="btn" href="about-product.html?id=${result.id}">View More</a>
       </div>
   </div>`;
   });
 
   flowerContainer.innerHTML = html;
 }
+
+const sortName = document.querySelector(".sort-name");
+
+sortName.addEventListener("click", sortByName);
