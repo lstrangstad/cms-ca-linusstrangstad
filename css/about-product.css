@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Lora&display=swap");
+
+.product-img {
+  height: 400px;
+  width: 400px;
+  margin: 40px 15px;
+}
+
+h2 {
+  font-family: lora;
+  font-size: 32px;
+}
+
+.product-info {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+  margin-left: 20px;
+}
+
+.product-info p {
+  font-weight: bold;
+  font-family: lato;
+  font-size: 16px;
+}
+
+.value {
+  font-weight: normal;
+  font-style: italic;
+}
